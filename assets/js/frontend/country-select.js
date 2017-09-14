@@ -57,7 +57,8 @@ jQuery( function( $ ) {
 			$( 'select.country_select:visible, select.state_select:visible' ).each( function() {
 				var select2_args = $.extend({
 					placeholderOption: 'first',
-					width: '100%'
+					width: '100%',
+					'minimumResultsForSearch': Infinity
 				}, getEnhancedSelectFormatString() );
 
 				$( this ).select2( select2_args );
