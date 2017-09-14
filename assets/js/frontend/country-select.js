@@ -58,7 +58,7 @@ jQuery( function( $ ) {
 				var select2_args = $.extend({
 					placeholderOption: 'first',
 					width: '100%',
-					'minimumResultsForSearch': Infinity
+					minimumResultsForSearch: Infinity
 				}, getEnhancedSelectFormatString() );
 
 				$( this ).select2( select2_args );
